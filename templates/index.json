@@ -56,11 +56,6 @@
         "text_artikel_3_titel": "Blog title heading will go here",
         "text_artikel_3_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
-    },
-    "collection_products_VBVqwp": {
-      "type": "collection_products",
-      "name": "collection_products",
-      "settings": {}
     }
   },
   "layout": "theme",
@@ -70,7 +65,6 @@
     "hero",
     "category",
     "links",
-    "content",
-    "collection_products_VBVqwp"
+    "content"
   ]
 }
