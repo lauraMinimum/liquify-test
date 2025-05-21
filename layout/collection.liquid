@@ -69,6 +69,21 @@
     });
   });  
 });
+<!-- Efecto entrada im&aacute;genes -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+      }
+    });
+  }, {
+    threshold: 0.0, // puedes ajustar cu&aacute;nta parte debe entrar en pantalla
+  });
+  const targets = document.querySelectorAll("[css='image-scale']");
+  targets.forEach((el) => observer.observe(el));
+});
 </script><script>//sortierung
   Shopify.queryParams = {};
   // Preserve existing query parameters
