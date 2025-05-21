@@ -37,8 +37,8 @@
     "content": {
       "type": "content",
       "settings": {
-        "text_headline": "Short heading here",
-        "text_button_text": "All Articles",
+        "text_headline": "El Blog",
+        "text_button_text": "Ver todos los artículos",
         "url_button_link": "",
         "url_artikel_1_link": "",
         "text_artikel_1_titel": "Blog title heading will go here",
