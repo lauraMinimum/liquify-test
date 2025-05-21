@@ -29,12 +29,6 @@
         "collection_collection_limit": 6
       }
     },
-    "links": {
-      "type": "links",
-      "settings": {
-        "text_headline": "Short heading here"
-      }
-    },
     "list_collection_pJEwX9": {
       "type": "list_collection",
       "name": "List-Collection",
@@ -66,7 +60,6 @@
     "liquify_hero",
     "hero",
     "category",
-    "links",
     "list_collection_pJEwX9",
     "content"
   ]
