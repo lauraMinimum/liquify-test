@@ -8,5 +8,35 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {}
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "search_suggestion_gn8M8Q": {
+            "type": "search-suggestion",
+            "settings": {
+              "url_link": "",
+              "text_text": "Tag"
+            }
+          }
+        },
+        "block_order": [
+          "search_suggestion_gn8M8Q"
+        ],
+        "settings": {
+          "collection_search_bestseller": "productos-destacados",
+          "collection_search_bestseller_limit": 6
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "text_newsletter_headline": "Signup for Newsletter",
+          "text_checkbox": "By subscribing you agree to with our <a href=\"#\"><span class=\"text-color-white text-style-link\">Privacy Policy</span></a> and provide consent to receive updates from our company."
+        }
+      }
+    },
+    "content_for_index": []
+  }
 }
