@@ -11,21 +11,18 @@
   "sections": {
     "liquify_hero": {
       "type": "liquify_hero",
-      "settings": {}
+      "settings": {
+        "text_headline": "Shop Liquify"
+      }
     },
     "hero": {
       "type": "hero",
-      "settings": {
-        "text_headline": "Short heading here",
-        "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>",
-        "url_button_link": "",
-        "text_button_text": "More Information"
-      }
+      "settings": {}
     },
     "category": {
       "type": "category",
       "settings": {
-        "text_headline": "Short heading here",
+        "text_headline": "Productos destacados",
         "url_button_link": "",
         "text_button_text": "All products",
         "collection_collection": "",
@@ -37,6 +34,11 @@
       "settings": {
         "text_headline": "Short heading here"
       }
+    },
+    "list_collection_pJEwX9": {
+      "type": "list_collection",
+      "name": "List-Collection",
+      "settings": {}
     },
     "content": {
       "type": "content",
@@ -56,11 +58,6 @@
         "text_artikel_3_titel": "Blog title heading will go here",
         "text_artikel_3_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
-    },
-    "list_collection_pJEwX9": {
-      "type": "list_collection",
-      "name": "List-Collection",
-      "settings": {}
     }
   },
   "layout": "theme",
