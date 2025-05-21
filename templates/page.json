@@ -37,19 +37,11 @@
         "text_link_text": "Explore the original",
         "url_link": ""
       }
-    },
-    "message_Pf9zcd": {
-      "type": "message",
-      "name": "message",
-      "settings": {
-        "text_text": "Free Delivery Over £100.00"
-      }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
-    "message_Pf9zcd",
     "about_hero_gkW3NC",
     "about_content_TJqNUy",
     "about_video_fAJAar"
