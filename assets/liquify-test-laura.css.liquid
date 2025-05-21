@@ -1,15 +1,23 @@
 @font-face {
-  font-family: Shopifysans;
-  src: url({{ 'ShopifySans--bold.woff2' | asset_url }}) format("woff2");
-  font-weight: 700;
+  font-family: Featuredeck Web;
+  src: url({{ '67f4d417c6adc2bc2cabc9d0_FeatureDeck-Light-Web.woff2' | asset_url }}) format("woff2");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: Shopifysans;
-  src: url({{ 'ShopifySans--regular.woff2' | asset_url }}) format("woff2");
+  font-family: PPMoriRegular;
+  src: url({{ '67ee9adc739289e7cd5e636b_PPMoriRegular1741780689.otf' | asset_url }}) format("opentype");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: PPMoriSemiBold;
+  src: url({{ '67ee9adc354a8d51f97d0fda_PPMoriSemiBold1741780694.otf' | asset_url }}) format("opentype");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -26,7 +34,6 @@
   --border-radius--small: .25rem;
   --base-color-system--focus-state: #2d62ff;
   --background-color--background-tertiary: var(--base-color-brand--pink);
-  --base-color-brand--blue: #2d62ff;
   --base-color-neutral--neutral-lightest: #eee;
   --accessible-components-dark-grey\<deleted\|variable-c4d8099c\>: #9b9b9b;
   --text-color--text-error: var(--base-color-system--error-red-dark);
@@ -43,7 +50,9 @@
   --background-color--background-success: var(--base-color-system--success-green);
   --text-color--text-success: var(--base-color-system--success-green-dark);
   --link-color--link-secondary: var(--base-color-neutral--black);
+  --base-color-brand--beige: #ebeae6;
   --base-color-brand--blue-light: #d9e5ff;
+  --base-color-brand--blue: #2d62ff;
   --base-color-brand--blue-dark: #080331;
   --base-color-brand--pink-light: #ffaefe;
   --base-color-brand--pink: #dd23bb;
@@ -685,12 +694,12 @@ figcaption {
 }
 
 .button {
-  border: 1px solid var(--base-color-brand--blue);
-  border-radius: var(--border-radius--medium);
+  border: 1px solid var(--base-color-neutral--black);
+  background-color: var(--base-color-neutral--black);
   color: var(--text-color--text-alternate);
   text-align: center;
   white-space: nowrap;
-  background-color: #2d62ff;
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
   padding: .5rem 1.5rem;
@@ -699,7 +708,7 @@ figcaption {
 }
 
 .button:hover {
-  background-color: #2d62ffcc;
+  background-color: #000c;
 }
 
 .button.is-secondary {
@@ -1499,8 +1508,6 @@ figcaption {
 }
 
 .mini-cart_line-item_img {
-  border: 1px solid var(--base-color-neutral--neutral-lighter);
-  border-radius: var(--border-radius--medium);
   background-color: var(--base-color-neutral--neutral-lightest);
   object-fit: contain;
   width: 5rem;
@@ -1576,7 +1583,6 @@ figcaption {
 
 .product-item_image-wrapper {
   width: 100%;
-  padding-top: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -1586,8 +1592,6 @@ figcaption {
   object-fit: contain;
   width: 100%;
   height: 100%;
-  position: absolute;
-  inset: 0%;
 }
 
 .product-item_text-link {
@@ -1623,8 +1627,8 @@ figcaption {
   align-items: center;
   width: 100%;
   height: auto;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   display: flex;
 }
 
@@ -1655,7 +1659,7 @@ figcaption {
 
 .nav_menu-dropdown {
   align-items: stretch;
-  height: 5rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -3941,12 +3945,12 @@ figcaption {
   transform: rotate(60deg);
 }
 
-.div-block {
+.hero_wrapper-image {
   position: absolute;
   inset: 0%;
 }
 
-.div-block-2 {
+.hero_background {
   background-color: #0000004d;
   position: absolute;
   inset: 0%;
@@ -4310,6 +4314,12 @@ figcaption {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.top_message {
+  background-color: var(--base-color-brand--beige);
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 @media screen and (max-width: 991px) {
@@ -6225,16 +6235,23 @@ figcaption {
 
 
 @font-face {
-  font-family: 'Shopifysans';
-  src: url({{ 'ShopifySans--bold.woff2' | asset_url }}) format('woff2');
-  font-weight: 700;
+  font-family: 'Featuredeck Web';
+  src: url({{ '67f4d417c6adc2bc2cabc9d0_FeatureDeck-Light-Web.woff2' | asset_url }}) format('woff2');
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Shopifysans';
-  src: url({{ 'ShopifySans--regular.woff2' | asset_url }}) format('woff2');
+  font-family: 'PPMoriRegular';
+  src: url({{ '67ee9adc739289e7cd5e636b_PPMoriRegular1741780689.otf' | asset_url }}) format('opentype');
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PPMoriSemiBold';
+  src: url({{ '67ee9adc354a8d51f97d0fda_PPMoriSemiBold1741780694.otf' | asset_url }}) format('opentype');
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
