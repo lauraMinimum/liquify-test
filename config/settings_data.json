@@ -16,8 +16,8 @@
           "search_suggestion_gn8M8Q": {
             "type": "search-suggestion",
             "settings": {
-              "url_link": "",
-              "text_text": "Tag"
+              "url_link": "shopify://blogs/noticias",
+              "text_text": "Noticias"
             }
           }
         },
