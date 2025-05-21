@@ -15,18 +15,14 @@
         "text_headline": "Shop Liquify"
       }
     },
-    "hero": {
-      "type": "hero",
-      "settings": {}
-    },
     "category": {
       "type": "category",
       "settings": {
         "text_headline": "Productos destacados",
         "url_button_link": "",
         "text_button_text": "All products",
-        "collection_collection": "",
-        "collection_collection_limit": 6
+        "collection_collection": "productos-destacados",
+        "collection_collection_limit": 3
       }
     },
     "list_collection_pJEwX9": {
@@ -58,7 +54,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "liquify_hero",
-    "hero",
     "category",
     "list_collection_pJEwX9",
     "content"
