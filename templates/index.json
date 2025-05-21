@@ -26,24 +26,15 @@
         "collection_collection_limit": 4
       }
     },
-    "content": {
-      "type": "content",
+    "images_9Jeeeh": {
+      "type": "images",
+      "name": "Images",
       "settings": {
-        "text_headline": "El Blog",
-        "text_button_text": "Ver todos los artículos",
-        "url_button_link": "shopify://blogs/noticias",
-        "url_artikel_1_link": "",
-        "text_artikel_1_titel": "",
-        "text_artikel_1_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        "image_artikel_1_bild": "{{ section.settings.article_artikel_2.image }}",
-        "article_artikel_2": "{{ section.settings.article_artikel_3 }}",
-        "url_artikel_2_link": "",
-        "text_artikel_2_titel": "Blog title heading will go here{{ section.settings.article_artikel_3.title }}",
-        "text_artikel_2_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        "article_artikel_3": "",
-        "url_artikel_3_link": "",
-        "text_artikel_3_titel": "Blog title heading will go here",
-        "text_artikel_3_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
+        "text_headline": "Short heading goes here",
+        "richtext_content": "<p><br/>                    Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.<br/>                    Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dic</p>",
+        "image_image_1": "shopify://shop_images/Screenshot_2025-03-12_at_01.52.02_6919c5e5-3028-4010-ac61-baeadffd1317.webp",
+        "image_image_2": "shopify://shop_images/image_73.webp",
+        "image_image_3": "shopify://shop_images/Screenshot_2025-03-12_at_01.52.52.webp"
       }
     }
   },
@@ -52,6 +43,6 @@
   "order": [
     "liquify_hero",
     "category",
-    "content"
+    "images_9Jeeeh"
   ]
 }
