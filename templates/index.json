@@ -12,7 +12,8 @@
     "liquify_hero": {
       "type": "liquify_hero",
       "settings": {
-        "text_headline": "Shop Liquify"
+        "text_headline": "Shop Liquify",
+        "image_image": "shopify://shop_images/hero.webp"
       }
     },
     "category": {
