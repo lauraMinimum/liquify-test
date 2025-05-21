@@ -19,7 +19,7 @@
       "type": "category",
       "settings": {
         "text_headline": "Productos destacados",
-        "url_button_link": "",
+        "url_button_link": "shopify://collections",
         "text_button_text": "Todos los productos",
         "collection_collection": "productos-destacados",
         "collection_collection_limit": 4
