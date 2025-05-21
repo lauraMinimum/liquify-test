@@ -1,3 +1,19 @@
+@font-face {
+  font-family: Shopifysans;
+  src: url({{ 'ShopifySans--bold.woff2' | asset_url }}) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Shopifysans;
+  src: url({{ 'ShopifySans--regular.woff2' | asset_url }}) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --base-color-neutral--black: black;
   --base-color-neutral--neutral: #666;
@@ -45,6 +61,15 @@
   --link-color--link-primary: var(--base-color-brand--blue);
   --link-color--link-alternate: var(--base-color-neutral--white);
   --link-color--color: white;
+}
+
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
 }
 
 .w-checkbox {
@@ -106,15 +131,6 @@
 .w-form-formradioinput--inputType-custom.w--redirected-checked {
   border-width: 4px;
   border-color: #3898ec;
-}
-
-.w-layout-grid {
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
 }
 
 body {
@@ -1566,8 +1582,6 @@ figcaption {
 }
 
 .product-item_image {
-  border: 1px solid var(--base-color-neutral--neutral-lighter);
-  border-radius: var(--border-radius--medium);
   background-color: var(--base-color-neutral--neutral-lightest);
   object-fit: contain;
   width: 100%;
@@ -2421,11 +2435,14 @@ figcaption {
 }
 
 .product-header_radio {
-  border-radius: var(--border-radius--medium);
   background-color: var(--base-color-neutral--neutral-lightest);
   padding: .4rem 1rem .3rem;
   font-weight: 600;
   position: relative;
+}
+
+.product-header_radio:hover {
+  background-color: var(--base-color-neutral--neutral-lighter);
 }
 
 .product-header_radio-list {
@@ -4252,6 +4269,49 @@ figcaption {
   inset: 0%;
 }
 
+.section_content5 {
+  background-color: var(--\<unknown\|relume-variable-color-scheme-1-background\>);
+  color: var(--\<unknown\|relume-variable-color-scheme-1-text\>);
+}
+
+.content5_component {
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1.5fr;
+  grid-auto-columns: 1fr;
+  align-items: start;
+  display: grid;
+}
+
+.content5_content-wrapper {
+  position: sticky;
+  top: 7rem;
+}
+
+.content5_gallery {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.content5_image-wrapper {
+  border-radius: var(--\<unknown\|relume-variable-radius-large\>);
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content5_image {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 991px) {
   .padding-medium {
     padding: 1.5rem;
@@ -4868,6 +4928,16 @@ figcaption {
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
+
+  .content5_component {
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    grid-template-columns: 1fr;
+  }
+
+  .content5_content-wrapper {
+    position: static;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -5390,6 +5460,11 @@ figcaption {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+
+  .content5_gallery {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5752,8 +5827,8 @@ figcaption {
   align-self: start;
 }
 
-#w-node-e78e8996-7ac5-c230-915a-0607e681c372-7a99c343 {
-  align-self: center;
+#w-node-_7609b622-e120-685c-0b87-30eca75f3488-7a99c343, #w-node-_7609b622-e120-685c-0b87-30eca75f348a-7a99c343, #w-node-_7609b622-e120-685c-0b87-30eca75f3493-7a99c343 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 #w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0badd-cf39daf1 {
@@ -6149,3 +6224,17 @@ figcaption {
 }
 
 
+@font-face {
+  font-family: 'Shopifysans';
+  src: url({{ 'ShopifySans--bold.woff2' | asset_url }}) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Shopifysans';
+  src: url({{ 'ShopifySans--regular.woff2' | asset_url }}) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
