@@ -12,17 +12,32 @@
     "about_hero_gkW3NC": {
       "type": "about_hero",
       "name": "About-Hero",
-      "settings": {}
+      "settings": {
+        "text_headline": "Visit our Studio",
+        "textarea_description": "Our flagship design studio is located at 151 O'Connor Street, Ground Floor, Ottawa, ON, K2P 2L8. Drop in to explore our latest collections and sustainable design innovations"
+      }
     },
     "about_content_TJqNUy": {
       "type": "about_content",
       "name": "About-Content",
-      "settings": {}
+      "settings": {
+        "text_headline": "Meet the Founder",
+        "textarea_content": "ECS Studios is on a mission to redefine luxury technical wear, bringing fresh innovation while supporting sustainable fashion practices.<em>\"We recognized that despite the growing demand for performance apparel in high fashion, there was a significant gap between technical functionality and refined aesthetics. There were outdoor brands with technical expertise and luxury labels with design vision – but no credible brand successfully bridging both worlds with a commitment to</em>",
+        "textarea_name": "<em>‍</em><strong class=\"text-size-medium\" li-settings:text=\"Name\">- Leo Kim, Founder & Creative Director</strong>",
+        "text_name": "- Leo Kim, Founder & Creative Director",
+        "image_image_1": "shopify://shop_images/woman-infront-of-tree-with-berries.jpeg",
+        "image_image_2": "shopify://shop_images/woman-in-white-dress-outside.jpg"
+      }
     },
     "about_video_fAJAar": {
       "type": "about_video",
       "name": "About-Video",
-      "settings": {}
+      "settings": {
+        "text_headline": "PURPOSE-BUILT FOR SUSTAINABLE LUXURY",
+        "textarea_description": "Bridging innovation with aesthetics to create sustainable, high-performance fashion without design compromise",
+        "text_link_text": "Explore the original",
+        "url_link": ""
+      }
     }
   },
   "layout": "page",
