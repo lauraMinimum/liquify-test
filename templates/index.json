@@ -30,7 +30,7 @@
       "settings": {
         "text_headline": "El Blog",
         "text_button_text": "Ver todos los artículos",
-        "url_button_link": "",
+        "url_button_link": "shopify://blogs/noticias",
         "url_artikel_1_link": "",
         "text_artikel_1_titel": "",
         "text_artikel_1_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
