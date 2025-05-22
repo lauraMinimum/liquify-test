@@ -52,7 +52,10 @@
       "settings": {
         "text_heading": "Más vendidos",
         "collection_list": [
-          "productos-destacados"
+          "productos-destacados",
+          "otra-coleccion",
+          "productos-mas-vendidos",
+          "frontpage"
         ],
         "collection_limit": 6
       }
