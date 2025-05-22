@@ -45,6 +45,17 @@
         "text_link_text": "Explore the original",
         "url_link": ""
       }
+    },
+    "collection_swiper_1_aLQ3rG": {
+      "type": "collection_swiper_1",
+      "name": "Collection Swiper 1",
+      "settings": {
+        "text_heading": "Bestseller",
+        "collection_list": [
+          "productos-destacados"
+        ],
+        "collection_limit": 6
+      }
     }
   },
   "layout": "page",
@@ -53,6 +64,7 @@
     "about_hero_gkW3NC",
     "about_content_TJqNUy",
     "team_K6kaeV",
-    "about_video_fAJAar"
+    "about_video_fAJAar",
+    "collection_swiper_1_aLQ3rG"
   ]
 }
