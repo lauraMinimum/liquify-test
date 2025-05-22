@@ -4,14 +4,5 @@
 </div><p class="text-size-medium">
 {{ section.settings.text_content }}
 </p>
-</div><div class="w-dyn-list"><div role="list" class="team20_list w-dyn-items"><div role="listitem" class="team20_item w-dyn-item"><div class="margin-bottom margin-small"><div class="team20_image-wrapper"><img loading="lazy" alt="{{ section.settings.image_image.alt }}" src="{{ section.settings.image_image | img_url: 'master' }}" class="team20_image w-dyn-bind-empty">
-</div></div><div class="margin-bottom margin-xsmall"><div class="team20_title-wrapper"><div class="text-size-large text-weight-semibold w-dyn-bind-empty">
-{{ section.settings.text_name }}
-</div>
-<div class="text-size-medium w-dyn-bind-empty">
-{{ section.settings.text_job_title }}
-</div>
-</div></div><p class="w-dyn-bind-empty">
-{{ section.settings.text_description }}
-</p>
-</div></div><div class="w-dyn-empty"><div>No items found.</div></div></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"Team","class":"section_team20","settings":[{"id":"text_title","type":"text","label":"Title","default":"Our team"},{"id":"text_content","type":"text","label":"Content","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."},{"id":"image_image","type":"image_picker","label":"Image"},{"id":"text_name","type":"text","label":"Name","default":"Lorem Ipsum"},{"id":"text_job_title","type":"text","label":"Job Title","default":"Lorem Ipsum"},{"id":"text_description","type":"text","label":"Description","default":"Lorem Ipsum"}],"presets":[{"name":"Team","category":"Liquify","blocks":[]}]} {% endschema %}
+</div><div class="w-dyn-list"><div role="list" class="team20_list w-dyn-items"><div role="listitem" class="team20_item w-dyn-item"><div class="margin-bottom margin-small"><div class="team20_image-wrapper"><img li-object="Image" loading="lazy" alt="" src="{{ '6191a88a1c0e39463c2bf022_placeholder-image.svg' | asset_url }}" class="team20_image w-dyn-bind-empty">
+</div></div><div class="margin-bottom margin-xsmall"><div class="team20_title-wrapper"><div li-object="Nombre" class="text-size-large text-weight-semibold w-dyn-bind-empty">{{ Nombre }}</div><div li-object="Description" class="text-size-medium w-dyn-bind-empty">{{ Description }}</div></div></div></div></div><div class="w-dyn-empty"><div>No items found.</div></div></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"Team","class":"section_team20","settings":[{"id":"text_title","type":"text","label":"Title","default":"Our team"},{"id":"text_content","type":"text","label":"Content","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."}],"presets":[{"name":"Team","category":"Liquify","blocks":[]}]} {% endschema %}
