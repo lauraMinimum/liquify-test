@@ -50,7 +50,7 @@
       "type": "collection_swiper_1",
       "name": "Collection Swiper 1",
       "settings": {
-        "text_heading": "Bestseller",
+        "text_heading": "Más vendidos",
         "collection_list": [
           "productos-destacados"
         ],
