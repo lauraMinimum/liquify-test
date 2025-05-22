@@ -37,6 +37,17 @@
         "text_link_text": "Explore the original",
         "url_link": ""
       }
+    },
+    "team_K6kaeV": {
+      "type": "team",
+      "name": "Team",
+      "settings": {
+        "text_title": "Our team",
+        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "text_name": "Lorem Ipsum",
+        "text_job_title": "Lorem Ipsum",
+        "text_description": "Lorem Ipsum"
+      }
     }
   },
   "layout": "page",
@@ -44,6 +55,7 @@
   "order": [
     "about_hero_gkW3NC",
     "about_content_TJqNUy",
+    "team_K6kaeV",
     "about_video_fAJAar"
   ]
 }
