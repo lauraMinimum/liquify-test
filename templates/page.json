@@ -35,8 +35,8 @@
         "text_title": "Our team",
         "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
         "image_image": "shopify://shop_images/Screenshot_2025-03-12_at_01.52.52.webp",
-        "text_name": "Lorem Ipsum",
-        "text_job_title": "Lorem Ipsum",
+        "text_name": "Nombre{{ metaobjects.team[\"team-1\"].nombre.value }}",
+        "text_job_title": "Lorem Ipsum{{ metaobjects.team[\"team-1\"].descripcion.value }}",
         "text_description": "Lorem Ipsum"
       }
     },
