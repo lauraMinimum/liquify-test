@@ -6,10 +6,10 @@
 </p>
 </div><div class="w-dyn-list"><div role="list" class="team20_list w-dyn-items">{% for team in metaobjects.team.values %}    <div li-for="team in metaobjects.team.values" role="listitem" class="team20_item w-dyn-item">
                                     
-                            <div class="margin-bottom margin-small"><div css="image-scale" class="team20_image-wrapper"><img class="team20_image w-dyn-bind-empty" src="{{ team.image | img_url: 'master' }}" alt="{{ team.image }}" li-object:src="team.image | img_url: 'master'" image="scale" loading="lazy" li-object:alt="team.image">
+                            <div class="margin-bottom margin-small"><div css="image-scale" class="team20_image-wrapper"><img class="team20_image w-dyn-bind-empty" src="{{ team.imagen | img_url: 'master' }}" alt="{{ team.imagen }}" li-object:src="team.imagen | img_url: 'master'" image="scale" loading="lazy" li-object:alt="team.imagen">
 </div></div>
                             
-                            <div class="margin-bottom margin-xsmall"><div class="team20_title-wrapper"><div li-object="team.name" class="text-size-large text-weight-semibold w-dyn-bind-empty">{{ team.name }}</div><div li-object="team.description" class="text-size-medium w-dyn-bind-empty">{{ team.description }}</div></div></div>
+                            <div class="margin-bottom margin-xsmall"><div class="team20_title-wrapper"><div li-object="team.nombre" class="text-size-large text-weight-semibold w-dyn-bind-empty">{{ team.nombre }}</div><div li-object="team.descripcion" class="text-size-medium w-dyn-bind-empty">{{ team.descripcion }}</div></div></div>
                             
                         </div>
 {% endfor %}</div><div class="w-dyn-empty"><div>No items found.</div></div></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"Team","class":"section_team20","settings":[{"id":"text_title","type":"text","label":"Title","default":"Our team"},{"id":"text_content","type":"text","label":"Content","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."}],"presets":[{"name":"Team","category":"Liquify","blocks":[]}]} {% endschema %}
