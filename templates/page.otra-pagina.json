@@ -13,7 +13,7 @@
       "type": "about_hero",
       "name": "About-Hero",
       "settings": {
-        "text_headline": "Otra Página Test",
+        "text_headline": "Otra Página",
         "textarea_description": "Our flagship design studio is located at 151 O'Connor Street, Ground Floor, Ottawa, ON, K2P 2L8. Drop in to explore our latest collections and sustainable design innovations"
       }
     },
@@ -26,14 +26,6 @@
         "textarea_name": "- Leo Kim, Founder & Creative Director",
         "image_image_1": "shopify://shop_images/image_33_95e9a645-070d-4f5f-bedb-95e5d02bc950.webp",
         "image_image_2": "shopify://shop_images/image_51_9400f368-d1c1-4017-a2cf-609741b49f65.webp"
-      }
-    },
-    "team_K6kaeV": {
-      "type": "team",
-      "name": "Team",
-      "settings": {
-        "text_title": "Our team",
-        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
       }
     },
     "about_video_fAJAar": {
@@ -52,7 +44,6 @@
   "order": [
     "about_hero_gkW3NC",
     "about_content_TJqNUy",
-    "team_K6kaeV",
     "about_video_fAJAar"
   ]
 }
