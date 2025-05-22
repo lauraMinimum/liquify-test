@@ -4,9 +4,9 @@
 </div><p class="text-size-medium">
 {{ section.settings.text_content }}
 </p>
-</div><div class="w-dyn-list"><div role="list" class="team20_list w-dyn-items">{% for team in shop.metaobjects.team.values %}    <div li-for="team in shop.metaobjects.team.values" role="listitem" class="team20_item w-dyn-item">
+</div><div class="w-dyn-list"><div role="list" class="team20_list w-dyn-items">{% for team in metaobjects.team.values %}    <div li-for="team in metaobjects.team.values" role="listitem" class="team20_item w-dyn-item">
                                     
-                            <div class="margin-bottom margin-small"><div class="team20_image-wrapper"><img li-object:src="team.image | img_url: 'master'" li-object:alt="team.image" alt="{{ team.image }}" src="{{ team.image | img_url: 'master' }}" loading="lazy" class="team20_image w-dyn-bind-empty">
+                            <div class="margin-bottom margin-small"><div css="image-scale" class="team20_image-wrapper"><img class="team20_image w-dyn-bind-empty" src="{{ team.image | img_url: 'master' }}" alt="{{ team.image }}" li-object:src="team.image | img_url: 'master'" image="scale" loading="lazy" li-object:alt="team.image">
 </div></div>
                             
                             <div class="margin-bottom margin-xsmall"><div class="team20_title-wrapper"><div li-object="team.name" class="text-size-large text-weight-semibold w-dyn-bind-empty">{{ team.name }}</div><div li-object="team.description" class="text-size-medium w-dyn-bind-empty">{{ team.description }}</div></div></div>
