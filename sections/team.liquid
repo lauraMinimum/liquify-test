@@ -4,7 +4,7 @@
 </div><p class="text-size-medium">
 {{ section.settings.text_content }}
 </p>
-</div><div class="w-dyn-list"><div role="list" class="team20_list w-dyn-items">{% for team in metaobjects.team.values %}    <div li-for="team in metaobjects.team.values" role="listitem" class="team20_item w-dyn-item">
+</div><div class="w-dyn-list"><div role="list" class="team20_list w-dyn-items">{% for team in shop.metaobjects.team.values %}    <div li-for="team in shop.metaobjects.team.values" role="listitem" class="team20_item w-dyn-item">
                                     
                             <div class="margin-bottom margin-small"><div css="image-scale" class="team20_image-wrapper"><img class="team20_image w-dyn-bind-empty" src="{{ team.imagen | img_url: 'master' }}" alt="{{ team.imagen }}" li-object:src="team.imagen | img_url: 'master'" image="scale" loading="lazy" li-object:alt="team.imagen">
 </div></div>
