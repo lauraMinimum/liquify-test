@@ -6,7 +6,7 @@
 </p>
 </div><div class="team20_list">{% for team in shop.metaobjects.team.values %}    <div li-for="team in shop.metaobjects.team.values" class="team20_item">
                                     
-                            <div class="margin-bottom margin-small"><div css="image-scale" class="team20_image-wrapper"><img class="team20_image" src="{{ team.imagen | img_url: 'master' }}" alt="{{ team.imagen }}" sizes="(max-width: 720px) 100vw, 720px" li-object:src="team.imagen | img_url: 'master'" image="scale" loading="lazy" li-object:alt="team.imagen" srcset="{{ 'Screenshot_2025-03-12_at_01.53.05-p-500.webp' | asset_url }} 500w, {{ 'Screenshot_2025-03-12_at_01.53.05.webp' | asset_url }} 720w">
+                            <div class="margin-bottom margin-small"><div css="image-scale" class="team20_image-wrapper"><img class="team20_image" src="{{ team.imagen | img_url: 'master' }}" alt="{{ team.imagen }}" li-object="team.imagen" sizes="(max-width: 720px) 100vw, 720px" li-object:src="team.imagen | img_url: 'master'" image="scale" loading="lazy" li-object:alt="team.imagen" srcset="{{ 'Screenshot_2025-03-12_at_01.53.05-p-500.webp' | asset_url }} 500w, {{ 'Screenshot_2025-03-12_at_01.53.05.webp' | asset_url }} 720w">
 </div></div>
                             
                             <div class="team20_title-wrapper"><div li-object="team.nombre" class="text-size-large text-weight-semibold">{{ team.nombre }}</div><div li-object="team.descripcion" class="text-size-medium">{{ team.descripcion }}</div></div>
