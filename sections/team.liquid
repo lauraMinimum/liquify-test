@@ -6,8 +6,8 @@
 </p>
 </div><div class="w-dyn-list">{% for team %}    <div li-for="team" role="list" class="team20_list w-dyn-items">
                                     
-                            <div role="listitem" class="team20_item w-dyn-item"><div class="margin-bottom margin-small"><div class="team20_image-wrapper"><img li-object="Image" loading="lazy" alt="" src="{{ '6191a88a1c0e39463c2bf022_placeholder-image.svg' | asset_url }}" class="team20_image w-dyn-bind-empty">
-</div></div><div class="margin-bottom margin-xsmall"><div class="team20_title-wrapper"><div li-object="Nombre" class="text-size-large text-weight-semibold w-dyn-bind-empty">{{ Nombre }}</div><div li-object="Description" class="text-size-medium w-dyn-bind-empty">{{ Description }}</div></div></div></div>
+                            <div role="listitem" class="team20_item w-dyn-item"><div class="margin-bottom margin-small"><div class="team20_image-wrapper"><img li-object:src="team.image" li-object:alt="team.image" alt="{{ team.image }}" src="{{ team.image }}" loading="lazy" class="team20_image w-dyn-bind-empty">
+</div></div><div class="margin-bottom margin-xsmall"><div class="team20_title-wrapper"><div li-object="team.name" class="text-size-large text-weight-semibold w-dyn-bind-empty">{{ team.name }}</div><div li-object="team.description" class="text-size-medium w-dyn-bind-empty">{{ team.description }}</div></div></div></div>
                             
                         </div>
 {% endfor %}<div class="w-dyn-empty"><div>No items found.</div></div></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"Team","class":"section_team20","settings":[{"id":"text_title","type":"text","label":"Title","default":"Our team"},{"id":"text_content","type":"text","label":"Content","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."}],"presets":[{"name":"Team","category":"Liquify","blocks":[]}]} {% endschema %}
