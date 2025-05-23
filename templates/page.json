@@ -59,6 +59,19 @@
         ],
         "collection_limit": 6
       }
+    },
+    "product_slider_2_fMPtwU": {
+      "type": "product_slider_2",
+      "name": "Product Slider 2",
+      "settings": {
+        "product_list": [
+          "original-hoodie",
+          "convergence-sweatshirt",
+          "original-t-shirt",
+          "studio-24-jogger"
+        ],
+        "products_limit": 12
+      }
     }
   },
   "layout": "page",
@@ -68,6 +81,7 @@
     "about_content_TJqNUy",
     "team_K6kaeV",
     "about_video_fAJAar",
-    "collection_swiper_1_aLQ3rG"
+    "collection_swiper_1_aLQ3rG",
+    "product_slider_2_fMPtwU"
   ]
 }
