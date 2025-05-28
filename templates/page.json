@@ -16,6 +16,13 @@
         "textarea_description": "Nuestro estudio de diseño insignia está ubicado en 151 O'Connor Street, Ground Floor, Ottawa, ON, K2P 2L8. Visítenos para explorar nuestras últimas colecciones e innovaciones de diseño sostenible."
       }
     },
+    "team_K6kaeV": {
+      "type": "team",
+      "settings": {
+        "text_title": "Nuestro Equipo",
+        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      }
+    },
     "about_content_TJqNUy": {
       "type": "about_content",
       "settings": {
@@ -26,19 +33,12 @@
         "image_image_2": "shopify://shop_images/image_51_9400f368-d1c1-4017-a2cf-609741b49f65.webp"
       }
     },
-    "team_K6kaeV": {
-      "type": "team",
-      "settings": {
-        "text_title": "Nuestro Equipo",
-        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-      }
-    },
     "about_video_fAJAar": {
       "type": "about_video",
       "settings": {
-        "text_headline": "PURPOSE-BUILT FOR SUSTAINABLE LUXURY",
-        "textarea_description": "Bridging innovation with aesthetics to create sustainable, high-performance fashion without design compromise",
-        "text_link_text": "Explore the original",
+        "text_headline": "DISEÑADO EXCLUSIVAMENTE PARA EL LUJO SOSTENIBLE",
+        "textarea_description": "Uniendo la innovación con la estética para crear moda sostenible y de alto rendimiento sin comprometer el diseño.",
+        "text_link_text": "Explora la original(fem",
         "url_link": ""
       }
     },
@@ -60,8 +60,8 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "about_hero_gkW3NC",
-    "about_content_TJqNUy",
     "team_K6kaeV",
+    "about_content_TJqNUy",
     "about_video_fAJAar",
     "collection_swiper_1_aLQ3rG"
   ]
