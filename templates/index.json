@@ -29,8 +29,8 @@
     "images_9Jeeeh": {
       "type": "images",
       "settings": {
-        "text_headline": "Short heading goes here",
-        "richtext_content": "<p><br/>                    Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.<br/>                    Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dic</p>",
+        "text_headline": "Encabezado corto va aquí",
+        "richtext_content": "<p><br/>Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.<br/> Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dic</p>",
         "image_image_1": "shopify://shop_images/Screenshot_2025-03-12_at_01.52.02_6919c5e5-3028-4010-ac61-baeadffd1317.webp",
         "image_image_2": "shopify://shop_images/image_73.webp",
         "image_image_3": "shopify://shop_images/Screenshot_2025-03-12_at_01.52.52.webp"

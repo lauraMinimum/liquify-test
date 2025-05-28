@@ -32,8 +32,8 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "text_newsletter_headline": "Signup for Newsletter",
-          "text_checkbox": "By subscribing you agree to with our <a href=\"#\"><span class=\"text-color-white text-style-link\">Privacy Policy</span></a> and provide consent to receive updates from our company."
+          "text_newsletter_headline": "Suscríbete al boletín",
+          "text_checkbox": "Al suscribirte, aceptas nuestra <a href=\"#\"><span class=\"text-color-white text-style-link\">Política de Privacidad</span></a> y das tu consentimiento para recibir actualizaciones de nuestra empresa."
         }
       },
       "message": {
