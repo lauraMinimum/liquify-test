@@ -12,7 +12,7 @@
     "liquify_hero": {
       "type": "liquify_hero",
       "settings": {
-        "text_headline": "Shop Liquify",
+        "text_headline": "Tienda Liquify",
         "image_image": "shopify://shop_images/hero.webp"
       }
     },
@@ -28,7 +28,6 @@
     },
     "images_9Jeeeh": {
       "type": "images",
-      "name": "Images",
       "settings": {
         "text_headline": "Short heading goes here",
         "richtext_content": "<p><br/>                    Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.<br/>                    Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dic</p>",

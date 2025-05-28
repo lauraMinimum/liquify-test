@@ -35,6 +35,12 @@
           "text_newsletter_headline": "Signup for Newsletter",
           "text_checkbox": "By subscribing you agree to with our <a href=\"#\"><span class=\"text-color-white text-style-link\">Privacy Policy</span></a> and provide consent to receive updates from our company."
         }
+      },
+      "message": {
+        "type": "message",
+        "settings": {
+          "text_text": "Entrega gratuita a partir de 100€"
+        }
       }
     },
     "content_for_index": []
